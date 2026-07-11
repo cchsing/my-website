@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Personal website for Justin Chong. <head />">
+      description="Personal website for Justin Chong documenting the journey in OpenTelemetry, Observability, DevOps, and Automation.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -1,6 +1,6 @@
 {
-  "label": "My Documentation",
-  "position": 4,
+  "label": "OpenTelemetry",
+  "position": 3,
   "link": {
     "type": "generated-index"
   }

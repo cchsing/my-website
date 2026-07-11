@@ -83,12 +83,24 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Justin Chong',
+        title: 'Home',
         logo: {
           alt: 'My Picture',
           src: 'img/my-pic.jpg',
         },
         items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'documentSidebar',
+            position: 'left',
+            label: 'Documentation',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'projectSidebar',
+            position: 'left',
+            label: 'Project',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -111,25 +123,21 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/tutorial/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Medias',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/chchong5679/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+                label: 'Instagram',
+                href: 'https://www.instagram.com/chc5679/',
+              }
             ],
           },
           {
@@ -141,7 +149,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/cchsing/my-website',
               },
             ],
           },
